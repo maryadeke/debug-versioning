@@ -1,0 +1,55 @@
+DEFINITION OF BUGS
+Debugging is the process of finding and fixing errors or bugs in the source code of any software
+
+DEFINITION OF A BUGS
+A bug is an error in code that prevents it in the way it was intended
+
+a bug is  a glitch that prevents the program from achieving desired output
+
+TYPES OF BUGS
+1.syntax errors; these occur when the code doesnot follow syntatical rules
+ eg "<div classhome><div>", 
+mistyping or incorrect usage of statements of variables, functions
+
+2. logic errors; these occur when  the steps taken to perform the task correctly are not well done eg an infinite loop
+
+3. design bugs; this is a bug caused by por and or inadequate design decisions.eg poor user interface(UI), Wrong data types, 
+                or its a bug that is carried from the dsigners to the actual implementation of the code
+
+4. runtime errors; these are errors that cant be noticed until the code is run.
+eg diving a variable by a null value, dividing a number by zero, adding a string to an integer
+
+WHY IS DEBUGGING IMPORTANT
+1. to remove errors from code
+2. to saves resources ie time and money
+3. enables developers to improve productivity and efficiency
+
+HOW DO WE DEBUG 
+The 5p's - Prior Planning Prevents Poor Performance
+
+DEBUGGING PRINCIPLE
+=>Bugs caught early, right after uve made them are the easiest to fix 
+bse the details are fresh in your mind and u know exactly where to look 
+
+=>once bugs escape they become very hard to find ie since u most likely
+ dont have the details of the codein your mindand the code has grown
+
+ THE DEBUGGNG CYCLE
+   1. coding(writing the code)
+   2. testing( checking the code functionality)
+   3. if the code is working as intended, proceed to develop the code
+   4. if the code is not working, go on to Debugging
+   5. then repeat cycle as they all go
+
+   A BUG SEEKING CYCLE
+      Difference between debugging and testing;
+      Debugging is wat i can do to fix erronous code while testing is what i need to do to break my code
+      
+STEPS OF DEBUGGING
+1. Plan ur attack
+2. backup your files(interchangeable) using versin control ie github to keep track fo changes in my software
+3. isolate the block of code that could have the error ie commenting it
+4. finding the actual line/ lines with the error or bugs
+5. fix the error, dont patch it
+6. test the fix youve jhs done
+7. look for similar bugs
